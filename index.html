@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Row 1: Greeting + Settings panel -->
+    <div class="row row-1">
+      <section id="greeting" class="greeting-panel" aria-label="Greeting"></section>
+      <section id="settings-panel" class="settings-panel" aria-label="Settings"></section>
+    </div>
+
+    <!-- Row 2: Weekly Calendar -->
+    <div class="row row-2">
+      <section id="weekly-calendar" class="weekly-calendar" aria-label="Weekly Calendar"></section>
+    </div>
+
+    <!-- Row 3: Music Player + Timer + Quick Links -->
+    <div class="row row-3">
+      <section id="music-player" class="music-panel" aria-label="Music Player"></section>
+      <section id="timer" class="timer-panel" aria-label="Focus Timer">
+        <div id="timer-clock" class="timer-clock-side"></div>
+        <div id="timer-presets" class="timer-presets-side"></div>
+      </section>
+      <section id="quick-links" class="quick-links-panel" aria-label="Quick Links"></section>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
